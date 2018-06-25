@@ -22,7 +22,7 @@ git clone https://github.com/Unidata/unidata-users-workshop
 
 cd unidata-users-workshop
 
-conda env create -f environment.yml
+conda env create -f environment[_mac].yml
 ```
 
 Note that the `conda env create` command installs numerous dependencies and may take a while to complete. If you're interested in learning more about Conda environments, try [this video](https://www.youtube.com/watch?v=15DNH25UCi0).
@@ -71,7 +71,7 @@ source deactivate users-workshop      # Unix-like systems
 
 git pull origin master                # update the local files from the workshop repository
 
-conda env update -f environment.yml   # update the Python environment
+conda env update -f environment[_mac].yml   # update the Python environment
 ```
 
 Updating the environment after the initial creation *should* be fairly speedy.
